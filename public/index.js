@@ -2,32 +2,32 @@ let movies = [
   {
     name: "falcon and the winter soldier",
     des:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 2.png"
+      "Falcon and the Winter Soldier are a mismatched duo who team up for a global adventure that will test their survival skills -- as well as their patience.",
+    image: "/images/slider 2.png"
   },
   {
     name: "loki",
     des:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 1.png"
+      "After stealing the Tesseract, Loki comes into contact with a mysterious organization that gives him an ominous ultimatum, either fix the timeline or cease to exist completely.",
+    image: "/images/slider 1.png"
   },
   {
     name: "wanda vision",
     des:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 3.png"
+      "Vision and Wanda live a normal life in Westview and conceal their superpowers. However, as decades pass by, they start doubting that everything is not what it seems.",
+    image: "/images/slider 3.png"
   },
   {
     name: "Moon Knight",
     des:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 4.png"
+      "Steven Grant and mercenary Marc Spector investigate the mysteries of the Egyptian gods from inside the same body.",
+    image: "/images/slider 4.png"
   },
   {
     name: "luca",
     des:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-    image: "images/slider 5.png"
+      "Luca, a sea monster, befriends Alberto, another one of his kind who takes him on a land adventure. He experiences an exciting summer while keeping his parents in the dark.",
+    image: "/images/slider 5.png"
   }
 ];
 
@@ -71,9 +71,8 @@ const createSlide = () => {
   sliders.push(slide);
 
   if (sliders.length) {
-    sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${
-      30 * (sliders.length - 2)
-    }px)`;
+    sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)
+      }px)`;
   }
 };
 
