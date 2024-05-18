@@ -1,2 +1,0 @@
-# DisneyClone
-Created with CodeSandbox
